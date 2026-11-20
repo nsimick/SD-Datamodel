@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NextActionDate__c</fullName>
+    <description>Recommended date for the next action.</description>
+    <label>Next Action Date</label>
+    <required>false</required>
+    <type>Date</type>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CommissionStatementLineItemId__c</fullName>
+    <description>Commission line being disputed.</description>
+    <label>Commission Statement Line Item</label>
+    <type>Lookup</type>
+    <referenceTo>CommissionStatementLineItem</referenceTo>
+    <relationshipName>CommissionDispute_CommissionStatementLin</relationshipName>
+    <relationshipLabel>Commission Dispute</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

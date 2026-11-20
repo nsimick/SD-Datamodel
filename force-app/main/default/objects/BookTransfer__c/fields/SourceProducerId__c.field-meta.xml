@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SourceProducerId__c</fullName>
+    <description>Producer transferring the book.</description>
+    <label>Source Producer</label>
+    <type>Lookup</type>
+    <referenceTo>Producer</referenceTo>
+    <relationshipName>BookTransfer_SourceProducer</relationshipName>
+    <relationshipLabel>Book Transfer</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

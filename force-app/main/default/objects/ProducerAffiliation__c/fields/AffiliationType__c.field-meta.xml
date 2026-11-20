@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AffiliationType__c</fullName>
+    <description>Kind of affiliation.</description>
+    <label>Affiliation Type</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <trackHistory>false</trackHistory>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+        <value>
+            <fullName>Agency</fullName>
+            <default>true</default>
+            <label>Agency</label>
+        </value>
+        <value>
+            <fullName>Sub-Agent</fullName>
+            <default>false</default>
+            <label>Sub-Agent</label>
+        </value>
+        <value>
+            <fullName>Branch</fullName>
+            <default>false</default>
+            <label>Branch</label>
+        </value>
+        <value>
+            <fullName>Cluster</fullName>
+            <default>false</default>
+            <label>Cluster</label>
+        </value>
+        <value>
+            <fullName>Other</fullName>
+            <default>false</default>
+            <label>Other</label>
+        </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

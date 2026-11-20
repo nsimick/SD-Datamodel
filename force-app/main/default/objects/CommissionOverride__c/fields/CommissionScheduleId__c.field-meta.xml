@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CommissionScheduleId__c</fullName>
+    <description>Schedule this override modifies.</description>
+    <label>Commission Schedule</label>
+    <type>Lookup</type>
+    <referenceTo>CommissionSchedule</referenceTo>
+    <relationshipName>CommissionOverride_CommissionSchedule</relationshipName>
+    <relationshipLabel>Commission Override</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

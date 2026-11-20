@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TerritoryId__c</fullName>
+    <description>Territory measured, if scoped.</description>
+    <label>Territory</label>
+    <type>Lookup</type>
+    <referenceTo>Territory2</referenceTo>
+    <relationshipName>ProductionScorecard_Territory</relationshipName>
+    <relationshipLabel>Production Scorecard</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProducerPolicyAssignmentId__c</fullName>
+    <description>Source or resulting producer-policy assignment.</description>
+    <label>Producer Policy Assignment</label>
+    <type>Lookup</type>
+    <referenceTo>ProducerPolicyAssignment__c</referenceTo>
+    <relationshipName>BookTransferItem_ProducerPolicyAssignmen</relationshipName>
+    <relationshipLabel>Book Transfer Item</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

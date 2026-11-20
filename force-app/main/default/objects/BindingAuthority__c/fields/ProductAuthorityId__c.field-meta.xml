@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductAuthorityId__c</fullName>
+    <description>Authorization this binding limit belongs to.</description>
+    <label>Product Authority</label>
+    <type>MasterDetail</type>
+    <referenceTo>ProductAuthority__c</referenceTo>
+    <relationshipName>BindingAuthority_ProductAuthority</relationshipName>
+    <relationshipLabel>Binding Authority</relationshipLabel>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <trackHistory>false</trackHistory>
+</CustomField>

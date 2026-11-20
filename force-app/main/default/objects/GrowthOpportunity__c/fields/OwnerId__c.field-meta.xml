@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnerId__c</fullName>
+    <description>Person responsible for follow-up.</description>
+    <label>Owner</label>
+    <type>Lookup</type>
+    <referenceTo>User</referenceTo>
+    <relationshipName>GrowthOpportunity_Owner</relationshipName>
+    <relationshipLabel>Growth Opportunity</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

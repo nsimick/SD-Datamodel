@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProducerId__c</fullName>
+    <description>Producer this override applies to.</description>
+    <label>Producer</label>
+    <type>Lookup</type>
+    <referenceTo>Producer</referenceTo>
+    <relationshipName>CommissionOverride_Producer</relationshipName>
+    <relationshipLabel>Commission Override</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

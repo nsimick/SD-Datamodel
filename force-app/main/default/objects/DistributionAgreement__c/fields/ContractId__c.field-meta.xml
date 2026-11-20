@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContractId__c</fullName>
+    <description>Underlying signed contractual record.</description>
+    <label>Contract</label>
+    <type>Lookup</type>
+    <referenceTo>Contract</referenceTo>
+    <relationshipName>DistributionAgreement_Contract</relationshipName>
+    <relationshipLabel>Distribution Agreement</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TerritoryId__c</fullName>
+    <description>Territory assigned to the producer.</description>
+    <label>Territory</label>
+    <type>Lookup</type>
+    <referenceTo>Territory2</referenceTo>
+    <relationshipName>TerritoryAssignment_Territory</relationshipName>
+    <relationshipLabel>Territory Assignment</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

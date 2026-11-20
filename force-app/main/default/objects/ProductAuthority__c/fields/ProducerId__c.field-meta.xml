@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProducerId__c</fullName>
+    <description>Producer granted this authority.</description>
+    <label>Producer</label>
+    <type>Lookup</type>
+    <referenceTo>Producer</referenceTo>
+    <relationshipName>ProductAuthority_Producer</relationshipName>
+    <relationshipLabel>Product Authority</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

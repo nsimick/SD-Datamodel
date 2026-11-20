@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessLicenseId__c</fullName>
+    <description>License record evaluated.</description>
+    <label>Business License</label>
+    <type>Lookup</type>
+    <referenceTo>BusinessLicense</referenceTo>
+    <relationshipName>CredentialSnapshot_BusinessLicense</relationshipName>
+    <relationshipLabel>Credential Snapshot</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

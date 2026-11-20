@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductId__c</fullName>
+    <description>Insurance product covered by this authority.</description>
+    <label>Product</label>
+    <type>Lookup</type>
+    <referenceTo>Product2</referenceTo>
+    <relationshipName>ProductAuthority_Product</relationshipName>
+    <relationshipLabel>Product Authority</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

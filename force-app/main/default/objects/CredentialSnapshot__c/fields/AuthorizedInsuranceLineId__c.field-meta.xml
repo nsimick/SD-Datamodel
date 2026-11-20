@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AuthorizedInsuranceLineId__c</fullName>
+    <description>Product-line authorization evaluated.</description>
+    <label>Authorized Insurance Line</label>
+    <type>Lookup</type>
+    <referenceTo>AuthorizedInsuranceLine</referenceTo>
+    <relationshipName>CredentialSnapshot_AuthorizedInsuranceLi</relationshipName>
+    <relationshipLabel>Credential Snapshot</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

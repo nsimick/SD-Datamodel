@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InsurancePolicyId__c</fullName>
+    <description>Policy being transferred.</description>
+    <label>Insurance Policy</label>
+    <type>Lookup</type>
+    <referenceTo>InsurancePolicy</referenceTo>
+    <relationshipName>BookTransferItem_InsurancePolicy</relationshipName>
+    <relationshipLabel>Book Transfer Item</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

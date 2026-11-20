@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonCode__c</fullName>
+    <description>Primary reason for a warning or failure.</description>
+    <label>Reason Code</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <trackHistory>false</trackHistory>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+        <value>
+            <fullName>License Missing</fullName>
+            <default>true</default>
+            <label>License Missing</label>
+        </value>
+        <value>
+            <fullName>License Expired</fullName>
+            <default>false</default>
+            <label>License Expired</label>
+        </value>
+        <value>
+            <fullName>Appointment Missing</fullName>
+            <default>false</default>
+            <label>Appointment Missing</label>
+        </value>
+        <value>
+            <fullName>Training Incomplete</fullName>
+            <default>false</default>
+            <label>Training Incomplete</label>
+        </value>
+        <value>
+            <fullName>Background Check</fullName>
+            <default>false</default>
+            <label>Background Check</label>
+        </value>
+        <value>
+            <fullName>Territory Mismatch</fullName>
+            <default>false</default>
+            <label>Territory Mismatch</label>
+        </value>
+        <value>
+            <fullName>Other</fullName>
+            <default>false</default>
+            <label>Other</label>
+        </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

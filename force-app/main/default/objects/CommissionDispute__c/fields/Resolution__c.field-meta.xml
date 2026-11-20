@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution__c</fullName>
+    <description>Outcome and explanation.</description>
+    <label>Resolution</label>
+    <length>32768</length>
+    <visibleLines>5</visibleLines>
+    <type>LongTextArea</type>
+    <trackHistory>false</trackHistory>
+</CustomField>

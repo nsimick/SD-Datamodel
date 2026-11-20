@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TerritoryId__c</fullName>
+    <description>Territory this opportunity belongs to.</description>
+    <label>Territory</label>
+    <type>Lookup</type>
+    <referenceTo>Territory2</referenceTo>
+    <relationshipName>GrowthOpportunity_Territory</relationshipName>
+    <relationshipLabel>Growth Opportunity</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

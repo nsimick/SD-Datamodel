@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentProducerId__c</fullName>
+    <description>Parent agency or producer in the hierarchy.</description>
+    <label>Parent Producer</label>
+    <type>Lookup</type>
+    <referenceTo>Producer</referenceTo>
+    <relationshipName>ProducerAffiliation_ParentProducer</relationshipName>
+    <relationshipLabel>Producer Affiliation</relationshipLabel>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

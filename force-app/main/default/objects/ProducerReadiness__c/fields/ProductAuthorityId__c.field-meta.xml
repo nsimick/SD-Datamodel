@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductAuthorityId__c</fullName>
+    <description>Authority assessed for readiness.</description>
+    <label>Product Authority</label>
+    <type>MasterDetail</type>
+    <referenceTo>ProductAuthority__c</referenceTo>
+    <relationshipName>ProducerReadiness_ProductAuthority</relationshipName>
+    <relationshipLabel>Producer Readiness</relationshipLabel>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <trackHistory>false</trackHistory>
+</CustomField>

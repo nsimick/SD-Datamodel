@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DistributionAgreementId__c</fullName>
+    <description>Agreement this authority derives from.</description>
+    <label>Distribution Agreement</label>
+    <type>Lookup</type>
+    <referenceTo>DistributionAgreement__c</referenceTo>
+    <relationshipName>ProductAuthority_DistributionAgreement</relationshipName>
+    <relationshipLabel>Product Authority</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

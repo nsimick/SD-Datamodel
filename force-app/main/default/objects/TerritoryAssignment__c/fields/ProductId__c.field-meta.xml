@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductId__c</fullName>
+    <description>Product this assignment is restricted to, if any.</description>
+    <label>Product</label>
+    <type>Lookup</type>
+    <referenceTo>Product2</referenceTo>
+    <relationshipName>TerritoryAssignment_Product</relationshipName>
+    <relationshipLabel>Territory Assignment</relationshipLabel>
+    <required>false</required>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <trackHistory>false</trackHistory>
+</CustomField>

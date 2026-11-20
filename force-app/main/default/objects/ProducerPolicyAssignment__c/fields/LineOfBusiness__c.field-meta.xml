@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LineOfBusiness__c</fullName>
+    <description>Line of business this assignment is scoped to.</description>
+    <label>Line of Business</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <trackHistory>false</trackHistory>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+        <value>
+            <fullName>Personal Auto</fullName>
+            <default>true</default>
+            <label>Personal Auto</label>
+        </value>
+        <value>
+            <fullName>Homeowners</fullName>
+            <default>false</default>
+            <label>Homeowners</label>
+        </value>
+        <value>
+            <fullName>Commercial Property</fullName>
+            <default>false</default>
+            <label>Commercial Property</label>
+        </value>
+        <value>
+            <fullName>Commercial Auto</fullName>
+            <default>false</default>
+            <label>Commercial Auto</label>
+        </value>
+        <value>
+            <fullName>General Liability</fullName>
+            <default>false</default>
+            <label>General Liability</label>
+        </value>
+        <value>
+            <fullName>Workers Compensation</fullName>
+            <default>false</default>
+            <label>Workers Compensation</label>
+        </value>
+        <value>
+            <fullName>Life</fullName>
+            <default>false</default>
+            <label>Life</label>
+        </value>
+        <value>
+            <fullName>Health</fullName>
+            <default>false</default>
+            <label>Health</label>
+        </value>
+        <value>
+            <fullName>Other</fullName>
+            <default>false</default>
+            <label>Other</label>
+        </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

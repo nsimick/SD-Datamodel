@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <description>Producer's role within the territory.</description>
+    <label>Role</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <trackHistory>false</trackHistory>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+        <value>
+            <fullName>Responsible</fullName>
+            <default>true</default>
+            <label>Responsible</label>
+        </value>
+        <value>
+            <fullName>Supporting</fullName>
+            <default>false</default>
+            <label>Supporting</label>
+        </value>
+        <value>
+            <fullName>Supervising</fullName>
+            <default>false</default>
+            <label>Supervising</label>
+        </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
